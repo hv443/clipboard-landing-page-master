@@ -248,6 +248,9 @@ button {
 .socialmedia svg {
     margin-right: 1rem;
 }
+.endText p{
+    color: hsl(210, 10%, 33%);
+}
 
 .endText p:hover {
     cursor: pointer;
@@ -262,6 +265,11 @@ svg:hover path {
 
 
 @media screen and (max-width:450px) {
+    body{
+        background: url(./images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
     .page1Content {
         text-align: center;
