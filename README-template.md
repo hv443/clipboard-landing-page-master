@@ -41,7 +41,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/clipboardlandingpagemaster-html-css-flexbox-3jGTWlHCL)
 - Live Site URL: [Add live site URL here](https://distracted-kowalevski-4d1360.netlify.app/)
 
 ## My process
