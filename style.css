@@ -317,10 +317,12 @@ a{
         background-repeat: no-repeat;
         background-size: cover;
     }
-
+.page1{
+    margin-bottom: 3rem;
+}
     .page1Content {
         text-align: center;
-        width: 300px;
+        width: 350px;
     }
     button{
         width: 300px;
@@ -349,8 +351,10 @@ a{
 .page3Text {
     width:350px;
 }
-.page3content img {
+.page3content> img {
    width: 300px;
+   transform: translateX(25px);
+
 }
 .page4Top {
     width: 350px;
