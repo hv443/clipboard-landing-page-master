@@ -7,10 +7,13 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: Bai Jamjuree;
     font-size: 18px;
 }
+
+
 
 h1, h3, h5 {
     color: hsl(210, 10%, 33%);
@@ -30,6 +33,10 @@ h3 {
 h5 {
     font-size: 22px;
 }
+
+
+
+
 
 
 
@@ -57,6 +64,10 @@ h5 {
 }
 
 
+
+
+
+
 /* buttons */
 button {
     background-color: hsl(171, 66%, 44%);
@@ -68,19 +79,19 @@ button {
     color: white;
     margin: .5rem;
 }
-
 .mac:hover {
     background-color: hsla(233, 100%, 69%, 0.7);
 }
-
 .ios:hover {
     background-color: hsla(171, 66%, 44%, 0.7);
 }
-
 .mac {
     background-color: hsl(233, 100%, 69%);
     box-shadow: 0px -3px 0px 0px inset rgba(17, 1, 1, 0.177), 0px 10px 30px hsla(233, 100%, 69%, 0.319);
 }
+
+
+
 
 
 
@@ -131,6 +142,9 @@ button {
 
 
 
+
+
+
 /* page3 */
 
 
@@ -148,6 +162,8 @@ button {
     margin: 0 auto;
     margin-bottom: 5rem;
 }
+
+
 
 
 
@@ -187,6 +203,12 @@ button {
 }
 
 
+
+
+
+
+
+
 /* page5 */
 
 .page5 {
@@ -218,6 +240,12 @@ button {
 }
 
 
+
+
+
+
+
+
 .end {
     height: 120px;
     display: flex;
@@ -245,20 +273,39 @@ button {
     grid-row-gap: 1rem;
 }
 
-.socialmedia svg {
-    margin-right: 1rem;
-}
+
+
+
+
 .endText p{
     color: hsl(210, 10%, 33%);
 }
+
+a{
+    text-decoration: none;
+}
+
 
 .endText p:hover {
     cursor: pointer;
     color:  hsl(171, 66%, 44%);
 }
 
-svg:hover path {
-    fill:  hsl(171, 66%, 44%);
+
+
+
+.socialmedia svg {
+    margin-right: 1rem;
+}
+
+.A svg:hover  path{
+    fill: rgb(11, 11, 171);
+}
+.b svg:hover path{
+    fill: rgb(97, 97, 191);
+}
+.c svg:hover path{
+    fill: rgb(238, 15, 15);
 }
 
 
@@ -273,7 +320,7 @@ svg:hover path {
 
     .page1Content {
         text-align: center;
-        width: 350px;
+        width: 300px;
     }
     button{
         width: 300px;
@@ -291,7 +338,7 @@ svg:hover path {
 }
 .page2Body>img {
     transform: translateX(2px);
-    width: 350px;
+    width: 300px;
     margin-bottom: 2rem;
 }
 .page2Body>.page2Text {
@@ -303,7 +350,7 @@ svg:hover path {
     width:350px;
 }
 .page3content img {
-   width: 350px;
+   width: 300px;
 }
 .page4Top {
     width: 350px;
